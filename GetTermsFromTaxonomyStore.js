@@ -1,3 +1,12 @@
+$(document).ready(function () {
+    var scriptbase = _spPageContextInfo.webServerRelativeUrl + "/_layouts/15/";
+    $.getScript(scriptbase + "SP.Runtime.js", function () {
+        $.getScript(scriptbase + "SP.js", function () {
+            $.getScript(scriptbase + "SP.Taxonomy.js", GetTermsFromTaxonomyStore);
+        });
+    });
+});
+
 function GetTermsFromTaxonomyStore() {
 
     var context = SP.ClientContext.get_current();
