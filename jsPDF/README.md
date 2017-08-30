@@ -5,3 +5,4 @@ jsPDF plugin for generating PDF tables with javascript
 ### Links
 * [GitHub](https://github.com/simonbengtsson/jsPDF-AutoTable)
 * [Demo](https://simonbengtsson.github.io/jsPDF-AutoTable/) - examples of what can be done with this plugin
+* [Example](https://github.com/simonbengtsson/jsPDF-AutoTable/blob/master/examples/examples.js#L258) - how to implement Colspan
